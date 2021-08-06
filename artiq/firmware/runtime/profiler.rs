@@ -3,7 +3,7 @@
 use core::mem;
 use core::fmt;
 use core::num::NonZeroUsize;
-use alloc::Vec;
+use alloc::vec::Vec;
 use managed::ManagedMap;
 
 #[derive(Debug, Copy, Clone, PartialEq, Eq, PartialOrd, Ord)]
